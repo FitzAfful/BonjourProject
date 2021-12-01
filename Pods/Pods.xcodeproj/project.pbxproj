@@ -1,0 +1,1488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01CDA1AEA072707BBF26E47CCDB7D24E /* Pods-bonjour-project-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D15B85D430F85B43E88B9346BA150E43 /* Pods-bonjour-project-dummy.m */; };
+		21246F0732D6C1B4E2A4BC4B5DD2BB17 /* DTPhotoViewerControllerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7151230FC656156DA9AB17DDF9D83139 /* DTPhotoViewerControllerDataSource.swift */; };
+		258EB26AB06EC6EFC2FF434BB50B5C35 /* DTPhotoAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97B72CEE53B459F887AD64662904FB32 /* DTPhotoAnimator.swift */; };
+		26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		2B325955608F849DC95557291B8CD5E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		2CABC8C9CA517DC23715D661EC3A002E /* DTImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EE1D12FF222D575EA42591D4E6B1888 /* DTImageView.swift */; };
+		33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */; };
+		549BEADB11814EF710DC089E91258605 /* DTScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B64445BC124BAB82599AB864C141807 /* DTScrollView.swift */; };
+		54C03678E366FDF739EB7A24281B0F4B /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = F4220D0D3C41A9C44D694B2A061BE6D5 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5D03467E7B750AB07F64672D68048BBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		606D29197B9CF63764C1068C35A0BD4E /* FTIndicator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF9428E10E2EE157D9A85F3B512DEC7 /* FTIndicator-dummy.m */; };
+		622620221CD80AE9ADD3C2C80F176972 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = C7AA093C26A1F80EF45B67CFFBCFD1F4 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6304393A3D0BC2CE6AFA2057FCE9CCF3 /* FTNotificationIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = B520A175BFCF52D8BE0C8D9354338F14 /* FTNotificationIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 18A93424D610300C1BF40BB3629E4BD0 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		77214966891DCD2E5EE3E144375F2F72 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DC9DE940BECA27416D032EA09EACB2 /* Helper.swift */; };
+		7913EB151448EEB33902A83F63E65ECB /* Pods-bonjour-projectTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2738FA389DFC2248C7C4CE818FCD0CB3 /* Pods-bonjour-projectTests-dummy.m */; };
+		7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F371A13C64CC1D089ABD333AC152B0D7 /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C2671BC2215843967EBC33756955565 /* FTNotificationIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 22733CCB9B1AC786CA8FCB7718B66B3A /* FTNotificationIndicator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */; };
+		8B11A47761135C2924D113424178D942 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		8C53F791E4A57E644D399BC1E3156401 /* DTPhotoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F106DD8A626C4BA25F56E0F1347182 /* DTPhotoCollectionViewCell.swift */; };
+		8EFA86AF23DD3BB04C3EEEE3E8D327B7 /* FTIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 2054121DC998AC8BC3B723162B47D0B7 /* FTIndicator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		955C8C173D091BACE812FC881D9EC096 /* DTPhotoViewerController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D87D3C07C15A6F0242BB4CA0CC7643B3 /* DTPhotoViewerController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		968989FE978E06D0E1E9D87AAD3C8109 /* DTCollectionViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBED363655B65FF27F0630679F589E01 /* DTCollectionViewFlowLayout.swift */; };
+		9BED2B6D6A77A004C45B43D003ACE674 /* DTPhotoViewerController+UISrcrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723A6D943ACA348CE2AF5A9BF9DD7644 /* DTPhotoViewerController+UISrcrollViewDelegate.swift */; };
+		A0016E72454D6910AC407DA034FFA31D /* FTIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A360A9308666B2EBDAF8F9FA24C5194 /* FTIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3A5B97D66E3F0222EBB70A2A79FBBC /* Pods-bonjour-project-bonjour-projectUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27A34293FD8232C5D713F4475C5D1EE7 /* Pods-bonjour-project-bonjour-projectUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4434E0C7A1BC9F8ADA2EA9281F1DF24E /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B862E75A573868769CD7A063B04B0FCF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		BC10B0AC01A227629FC23F330004BA44 /* FTProgressIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BC5F45D36413C87C77C0E4C16B90CC /* FTProgressIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE4C3DCF476B0FB3686D36572F143D8F /* FTToastIndicator.h in Headers */ = {isa = PBXBuildFile; fileRef = 61EB077C6811491D01CD9FFE571C5199 /* FTToastIndicator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF3B30A8C092B5CF94848D8712850AB9 /* Pods-bonjour-projectTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB932C6D6993CCCBA610C892B6C5F9E5 /* Pods-bonjour-projectTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C22812339EC9F9929ABC0BC342576690 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */; };
+		CBAA830E4F43D7A6DBBDE378713ADDD0 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B4AFBBE0D535AAECD80AC2D73792FC /* CocoaAsyncSocket-dummy.m */; };
+		CF719A26285802028232AEC5C1CECF45 /* DTPhotoViewerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25C9F3C4A29A1D4A34DE5299C1F6D3E7 /* DTPhotoViewerController.swift */; };
+		D3DC1438FBD5A56BB73609BBFB1D4071 /* DTPhotoViewerController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F058C11A401C3F4C402D6B4413C6735E /* DTPhotoViewerController-dummy.m */; };
+		D840BDB3785D41C13402758CCE196C8E /* DTPhotoViewerControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84564F74D2D9FEC85181A5DC02A74E7 /* DTPhotoViewerControllerDelegate.swift */; };
+		DA4E6B83DCF653F0D894289CCD262E60 /* FTToastIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 562894E77D6C738C6C35759C2D9096A0 /* FTToastIndicator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DE5E2ADA778AB5682D59970658C54ACF /* Pods-bonjour-project-bonjour-projectUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 941D2A10BDD3FEE938037CC88E27F807 /* Pods-bonjour-project-bonjour-projectUITests-dummy.m */; };
+		EDCFF664B3C204A300AC398E4B79481B /* FTIndicator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF7744FE84A3207AC205937B37E493A /* FTIndicator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F04AB64D7141B2123462C0E5A5AF6910 /* Pods-bonjour-project-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C9F275989205E25A77DD0405FC99FCE /* Pods-bonjour-project-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F11BFF25411AF46C67C432F4105B96EB /* FTProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 737A905D3EB876E28D4D3A53AFCDB032 /* FTProgressIndicator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F877E39644C3D9D6F3FB9BE8A8631A2F /* FTProgressIndicator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DF9D96A2C5706058E86127FF93BCB87C /* FTProgressIndicator.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3E47F81ADED81936EE95F85231FCD92C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		6D69386E17DD5AE365E99C8778E8B3A6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
+		};
+		6EEEDFC9A61B93464CDCFA69CDD98375 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B957A4FD9E608C9E3554AB85D106B08D;
+			remoteInfo = FTIndicator;
+		};
+		9AF084AE9BE9B57AEC365E3D69C45A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2FA3335DD57A921C519D262E9C483CB;
+			remoteInfo = "Pods-bonjour-project";
+		};
+		C591550A80F6DDE345F4D2B81834321E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B957A4FD9E608C9E3554AB85D106B08D;
+			remoteInfo = FTIndicator;
+		};
+		CE4B4D04A58F64D539B0C98D9A57A77C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8EE115F1E527CDF66E6DE8891382FA5;
+			remoteInfo = DTPhotoViewerController;
+		};
+		D7B47DA5BD591DBF272B0890C363B811 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D8EE115F1E527CDF66E6DE8891382FA5;
+			remoteInfo = DTPhotoViewerController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05660E6158A6D6B005B3D41714136C25 /* Pods-bonjour-project-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bonjour-project-Info.plist"; sourceTree = "<group>"; };
+		067E4A8511876024BC2AB61084BEF42D /* FTIndicator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTIndicator.release.xcconfig; sourceTree = "<group>"; };
+		12E615955BA2A9353BB38B1D49ED76D5 /* Pods-bonjour-project-bonjour-projectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bonjour-project-bonjour-projectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		13BC5F45D36413C87C77C0E4C16B90CC /* FTProgressIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTProgressIndicator.h; path = FTIndicator/FTProgressIndicator/FTProgressIndicator.h; sourceTree = "<group>"; };
+		18A93424D610300C1BF40BB3629E4BD0 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncSocket.h; path = Source/GCD/GCDAsyncSocket.h; sourceTree = "<group>"; };
+		1EE1D12FF222D575EA42591D4E6B1888 /* DTImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTImageView.swift; path = DTPhotoViewerController/Classes/DTImageView.swift; sourceTree = "<group>"; };
+		2054121DC998AC8BC3B723162B47D0B7 /* FTIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTIndicator.m; path = FTIndicator/FTIndicator.m; sourceTree = "<group>"; };
+		22733CCB9B1AC786CA8FCB7718B66B3A /* FTNotificationIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTNotificationIndicator.m; path = FTIndicator/FTNotificationIndicator/FTNotificationIndicator.m; sourceTree = "<group>"; };
+		25C9F3C4A29A1D4A34DE5299C1F6D3E7 /* DTPhotoViewerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTPhotoViewerController.swift; path = DTPhotoViewerController/Classes/DTPhotoViewerController.swift; sourceTree = "<group>"; };
+		2738FA389DFC2248C7C4CE818FCD0CB3 /* Pods-bonjour-projectTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bonjour-projectTests-dummy.m"; sourceTree = "<group>"; };
+		27A34293FD8232C5D713F4475C5D1EE7 /* Pods-bonjour-project-bonjour-projectUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bonjour-project-bonjour-projectUITests-umbrella.h"; sourceTree = "<group>"; };
+		27A8F58CB41F136AA3E71EB1E6589538 /* Pods-bonjour-project-bonjour-projectUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bonjour-project-bonjour-projectUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		32B4AFBBE0D535AAECD80AC2D73792FC /* CocoaAsyncSocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaAsyncSocket-dummy.m"; sourceTree = "<group>"; };
+		34E9648E860CA57148103DD26C547428 /* Pods-bonjour-project-bonjour-projectUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bonjour-project-bonjour-projectUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3579352B61F5077C4F8B34480CCBF147 /* Pods-bonjour-project-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bonjour-project-acknowledgements.plist"; sourceTree = "<group>"; };
+		381EC080EF71E872C00DED54704C07F4 /* Pods-bonjour-project-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-bonjour-project-frameworks.sh"; sourceTree = "<group>"; };
+		3AF7744FE84A3207AC205937B37E493A /* FTIndicator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTIndicator-umbrella.h"; sourceTree = "<group>"; };
+		4226BEB1AFCDE92C89D5FD9EE1CF2925 /* Pods-bonjour-project-bonjour-projectUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bonjour-project-bonjour-projectUITests-Info.plist"; sourceTree = "<group>"; };
+		4434E0C7A1BC9F8ADA2EA9281F1DF24E /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDAsyncUdpSocket.h; path = Source/GCD/GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		49A36C70ED2B2BE182C7DB5DB732A269 /* DTPhotoViewerController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DTPhotoViewerController; path = DTPhotoViewerController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A525250539AF6D05C79E9C3883C11CE /* Pods-bonjour-project-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bonjour-project-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4EC027E62710BA59DD9FAE4D08290301 /* Pods-bonjour-projectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bonjour-projectTests.release.xcconfig"; sourceTree = "<group>"; };
+		55C3C38DFDEE2E7D23E77B11024D4EB4 /* Pods-bonjour-projectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bonjour-projectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		562894E77D6C738C6C35759C2D9096A0 /* FTToastIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTToastIndicator.m; path = FTIndicator/FTToastIndicator/FTToastIndicator.m; sourceTree = "<group>"; };
+		564BB42678CFCF9DAC8DD1EF50E43AF6 /* FTIndicator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FTIndicator-Info.plist"; sourceTree = "<group>"; };
+		5B072714D6398A772CBAD2FAA23E9743 /* DTPhotoViewerController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DTPhotoViewerController-Info.plist"; sourceTree = "<group>"; };
+		5C98003DBD0807677E1D694923C3088B /* Pods-bonjour-project.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-bonjour-project.modulemap"; sourceTree = "<group>"; };
+		5D0DBA11F551DCF2EA1F4764838A7722 /* Pods-bonjour-project-bonjour-projectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bonjour-project-bonjour-projectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5E0843A19BA814103B5A02853CFD9CE3 /* DTPhotoViewerController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DTPhotoViewerController.modulemap; sourceTree = "<group>"; };
+		61EB077C6811491D01CD9FFE571C5199 /* FTToastIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTToastIndicator.h; path = FTIndicator/FTToastIndicator/FTToastIndicator.h; sourceTree = "<group>"; };
+		6A360A9308666B2EBDAF8F9FA24C5194 /* FTIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTIndicator.h; path = FTIndicator/FTIndicator.h; sourceTree = "<group>"; };
+		6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CocoaAsyncSocket; path = CocoaAsyncSocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F706476C3217A6DA681EF8AAAD8CF09 /* Pods-bonjour-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bonjour-project.release.xcconfig"; sourceTree = "<group>"; };
+		7151230FC656156DA9AB17DDF9D83139 /* DTPhotoViewerControllerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTPhotoViewerControllerDataSource.swift; path = DTPhotoViewerController/Classes/DTPhotoViewerControllerDataSource.swift; sourceTree = "<group>"; };
+		723A6D943ACA348CE2AF5A9BF9DD7644 /* DTPhotoViewerController+UISrcrollViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DTPhotoViewerController+UISrcrollViewDelegate.swift"; path = "DTPhotoViewerController/Classes/DTPhotoViewerController+UISrcrollViewDelegate.swift"; sourceTree = "<group>"; };
+		737A905D3EB876E28D4D3A53AFCDB032 /* FTProgressIndicator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FTProgressIndicator.m; path = FTIndicator/FTProgressIndicator/FTProgressIndicator.m; sourceTree = "<group>"; };
+		741DF28CC31E408799B9EED657071C35 /* DTPhotoViewerController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTPhotoViewerController.release.xcconfig; sourceTree = "<group>"; };
+		77631C0EE1576CEAF543B1FBEB8B2C54 /* CocoaAsyncSocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.debug.xcconfig; sourceTree = "<group>"; };
+		786D1A58DFBE4E2B6FBFF1F509722C6F /* FTIndicator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FTIndicator-prefix.pch"; sourceTree = "<group>"; };
+		7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		7B64445BC124BAB82599AB864C141807 /* DTScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTScrollView.swift; path = DTPhotoViewerController/Classes/DTScrollView.swift; sourceTree = "<group>"; };
+		7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		82DC9DE940BECA27416D032EA09EACB2 /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = DTPhotoViewerController/Classes/Helper.swift; sourceTree = "<group>"; };
+		83EA78177151B0C583FC8A461A699939 /* FTIndicator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FTIndicator.debug.xcconfig; sourceTree = "<group>"; };
+		84A1672A648198DDD6E8D2B5710D71F4 /* Pods-bonjour-projectTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bonjour-projectTests-Info.plist"; sourceTree = "<group>"; };
+		8FBA4B2B3DA2E5AC8B537C628530BD02 /* Pods-bonjour-projectTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-bonjour-projectTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		930254329DE040D0E798D57522B3ED8C /* Pods-bonjour-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-bonjour-project.debug.xcconfig"; sourceTree = "<group>"; };
+		941D2A10BDD3FEE938037CC88E27F807 /* Pods-bonjour-project-bonjour-projectUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bonjour-project-bonjour-projectUITests-dummy.m"; sourceTree = "<group>"; };
+		97B72CEE53B459F887AD64662904FB32 /* DTPhotoAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTPhotoAnimator.swift; path = DTPhotoViewerController/Classes/DTPhotoAnimator.swift; sourceTree = "<group>"; };
+		99819E14F2E8B82980D8E9C527DE5231 /* CocoaAsyncSocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CocoaAsyncSocket-Info.plist"; sourceTree = "<group>"; };
+		99F3CEC73ED69763D192920B521723B8 /* Pods-bonjour-projectTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-bonjour-projectTests.modulemap"; sourceTree = "<group>"; };
+		9C9F275989205E25A77DD0405FC99FCE /* Pods-bonjour-project-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bonjour-project-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A311F2C598DDF0FC72FC2CB281C17405 /* CocoaAsyncSocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CocoaAsyncSocket.modulemap; sourceTree = "<group>"; };
+		A42C243ED3084AFD33C38CBAA1D8B4B7 /* Pods-bonjour-project-bonjour-projectUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-bonjour-project-bonjour-projectUITests"; path = Pods_bonjour_project_bonjour_projectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		A8F106DD8A626C4BA25F56E0F1347182 /* DTPhotoCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTPhotoCollectionViewCell.swift; path = DTPhotoViewerController/Classes/DTPhotoCollectionViewCell.swift; sourceTree = "<group>"; };
+		AFF9428E10E2EE157D9A85F3B512DEC7 /* FTIndicator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FTIndicator-dummy.m"; sourceTree = "<group>"; };
+		B520A175BFCF52D8BE0C8D9354338F14 /* FTNotificationIndicator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FTNotificationIndicator.h; path = FTIndicator/FTNotificationIndicator/FTNotificationIndicator.h; sourceTree = "<group>"; };
+		BA5050B83C1D723593E755E9F3B0817B /* FTIndicator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FTIndicator.modulemap; sourceTree = "<group>"; };
+		C04DFCEBEA4A5ED9D29C326C392A79D4 /* Pods-bonjour-project-bonjour-projectUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-bonjour-project-bonjour-projectUITests-frameworks.sh"; sourceTree = "<group>"; };
+		C13F2269400F19E9BB912B4F40073FE8 /* Pods-bonjour-project */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-bonjour-project"; path = Pods_bonjour_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7AA093C26A1F80EF45B67CFFBCFD1F4 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncSocket.m; path = Source/GCD/GCDAsyncSocket.m; sourceTree = "<group>"; };
+		CB932C6D6993CCCBA610C892B6C5F9E5 /* Pods-bonjour-projectTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-bonjour-projectTests-umbrella.h"; sourceTree = "<group>"; };
+		CC9121AC5A6A67555773F3AF643E8787 /* FTIndicator */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FTIndicator; path = FTIndicator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE2AD980AB5CDC862DDE40AF96274B9 /* DTPhotoViewerController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTPhotoViewerController.debug.xcconfig; sourceTree = "<group>"; };
+		D15B85D430F85B43E88B9346BA150E43 /* Pods-bonjour-project-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-bonjour-project-dummy.m"; sourceTree = "<group>"; };
+		D87D3C07C15A6F0242BB4CA0CC7643B3 /* DTPhotoViewerController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTPhotoViewerController-umbrella.h"; sourceTree = "<group>"; };
+		DB9C83DEB0AAF8B1E8A15979D6F40243 /* DTPhotoViewerController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTPhotoViewerController-prefix.pch"; sourceTree = "<group>"; };
+		DF9D96A2C5706058E86127FF93BCB87C /* FTProgressIndicator.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = FTProgressIndicator.bundle; path = FTIndicator/FTProgressIndicator/FTProgressIndicator.bundle; sourceTree = "<group>"; };
+		E55DB04FB83FF4032F47B9C3D1CD4BC3 /* Pods-bonjour-projectTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-bonjour-projectTests"; path = Pods_bonjour_projectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E65E2A2369FEF9B23F1704F635F9EE88 /* CocoaAsyncSocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaAsyncSocket.release.xcconfig; sourceTree = "<group>"; };
+		E84564F74D2D9FEC85181A5DC02A74E7 /* DTPhotoViewerControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTPhotoViewerControllerDelegate.swift; path = DTPhotoViewerController/Classes/DTPhotoViewerControllerDelegate.swift; sourceTree = "<group>"; };
+		EFE90F0951B303CE2413F6D7551340B8 /* CocoaAsyncSocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-prefix.pch"; sourceTree = "<group>"; };
+		F058C11A401C3F4C402D6B4413C6735E /* DTPhotoViewerController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTPhotoViewerController-dummy.m"; sourceTree = "<group>"; };
+		F371A13C64CC1D089ABD333AC152B0D7 /* CocoaAsyncSocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaAsyncSocket-umbrella.h"; sourceTree = "<group>"; };
+		F4220D0D3C41A9C44D694B2A061BE6D5 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDAsyncUdpSocket.m; path = Source/GCD/GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		FAEEAB01E517D206AF24D04C054A91B9 /* Pods-bonjour-projectTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-bonjour-projectTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FBED363655B65FF27F0630679F589E01 /* DTCollectionViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DTCollectionViewFlowLayout.swift; path = DTPhotoViewerController/Classes/DTCollectionViewFlowLayout.swift; sourceTree = "<group>"; };
+		FFBAE79045C96483FE38227A34646AAA /* Pods-bonjour-project-bonjour-projectUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-bonjour-project-bonjour-projectUITests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4073D9FB9869A07B74FD88BD2AE6B3CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B11A47761135C2924D113424178D942 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651F7A9812A8C1B8A13DA6FBA15529F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C22812339EC9F9929ABC0BC342576690 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB80262505352D9294C1B68D42018110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B325955608F849DC95557291B8CD5E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB21536CC9CABDC91BFC26EBA51DA31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B862E75A573868769CD7A063B04B0FCF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33A88215D5655DDBF56DEAA41CC8D8DA /* CFNetwork.framework in Frameworks */,
+				26F87A3DC73299D66231DFE835E9C13D /* Foundation.framework in Frameworks */,
+				8861DA09219E12C0A1DBA07EB1CEB94A /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7632430058D80C57BBB51281A12CF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D03467E7B750AB07F64672D68048BBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5B250C191F0E4C7AD947CD0C88A0F4B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		341BEF5294CAEC30F2B9B0D224B06933 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E0843A19BA814103B5A02853CFD9CE3 /* DTPhotoViewerController.modulemap */,
+				F058C11A401C3F4C402D6B4413C6735E /* DTPhotoViewerController-dummy.m */,
+				5B072714D6398A772CBAD2FAA23E9743 /* DTPhotoViewerController-Info.plist */,
+				DB9C83DEB0AAF8B1E8A15979D6F40243 /* DTPhotoViewerController-prefix.pch */,
+				D87D3C07C15A6F0242BB4CA0CC7643B3 /* DTPhotoViewerController-umbrella.h */,
+				CDE2AD980AB5CDC862DDE40AF96274B9 /* DTPhotoViewerController.debug.xcconfig */,
+				741DF28CC31E408799B9EED657071C35 /* DTPhotoViewerController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DTPhotoViewerController";
+			sourceTree = "<group>";
+		};
+		39F041C164A1A6EB869125208B05E00C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DF9D96A2C5706058E86127FF93BCB87C /* FTProgressIndicator.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3B7574DCB0CAEFA67534C9D3EE05CC79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		3E87A44E52B3AB0F400B730240916A9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */,
+				49A36C70ED2B2BE182C7DB5DB732A269 /* DTPhotoViewerController */,
+				CC9121AC5A6A67555773F3AF643E8787 /* FTIndicator */,
+				C13F2269400F19E9BB912B4F40073FE8 /* Pods-bonjour-project */,
+				A42C243ED3084AFD33C38CBAA1D8B4B7 /* Pods-bonjour-project-bonjour-projectUITests */,
+				E55DB04FB83FF4032F47B9C3D1CD4BC3 /* Pods-bonjour-projectTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C0E92EABF78F115712450538AF31B09 /* FTNotificationIndicator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FTNotificationIndicator;
+			sourceTree = "<group>";
+		};
+		5B5B5DF3C4A72995224D8E95122C0151 /* Pods-bonjour-project */ = {
+			isa = PBXGroup;
+			children = (
+				5C98003DBD0807677E1D694923C3088B /* Pods-bonjour-project.modulemap */,
+				4A525250539AF6D05C79E9C3883C11CE /* Pods-bonjour-project-acknowledgements.markdown */,
+				3579352B61F5077C4F8B34480CCBF147 /* Pods-bonjour-project-acknowledgements.plist */,
+				D15B85D430F85B43E88B9346BA150E43 /* Pods-bonjour-project-dummy.m */,
+				381EC080EF71E872C00DED54704C07F4 /* Pods-bonjour-project-frameworks.sh */,
+				05660E6158A6D6B005B3D41714136C25 /* Pods-bonjour-project-Info.plist */,
+				9C9F275989205E25A77DD0405FC99FCE /* Pods-bonjour-project-umbrella.h */,
+				930254329DE040D0E798D57522B3ED8C /* Pods-bonjour-project.debug.xcconfig */,
+				6F706476C3217A6DA681EF8AAAD8CF09 /* Pods-bonjour-project.release.xcconfig */,
+			);
+			name = "Pods-bonjour-project";
+			path = "Target Support Files/Pods-bonjour-project";
+			sourceTree = "<group>";
+		};
+		6383290AFF1B8E4826683A3553822CED /* FTProgressIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				3B7574DCB0CAEFA67534C9D3EE05CC79 /* Resources */,
+			);
+			name = FTProgressIndicator;
+			sourceTree = "<group>";
+		};
+		68215810F0FB7681ADA4D3910AAD84FC /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				18A93424D610300C1BF40BB3629E4BD0 /* GCDAsyncSocket.h */,
+				C7AA093C26A1F80EF45B67CFFBCFD1F4 /* GCDAsyncSocket.m */,
+				4434E0C7A1BC9F8ADA2EA9281F1DF24E /* GCDAsyncUdpSocket.h */,
+				F4220D0D3C41A9C44D694B2A061BE6D5 /* GCDAsyncUdpSocket.m */,
+				DD2EC7420D96A792212774B6237FDFFD /* Support Files */,
+			);
+			name = CocoaAsyncSocket;
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+		702E931C2810C8BA7A5AD9FCAE752253 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68215810F0FB7681ADA4D3910AAD84FC /* CocoaAsyncSocket */,
+				E773AB980A5FEDFDB182AEF6F7A81E6A /* DTPhotoViewerController */,
+				B05D1D356B89AFFF924E53A9D371FBC9 /* FTIndicator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		733AEE8383A4F419BDC45669B2D876F8 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B5B5DF3C4A72995224D8E95122C0151 /* Pods-bonjour-project */,
+				B6ECF131A7C5DD36FEE82DDC4470D5DD /* Pods-bonjour-project-bonjour-projectUITests */,
+				F03271CBD9B7DABF700A77BD89F407AC /* Pods-bonjour-projectTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B05D1D356B89AFFF924E53A9D371FBC9 /* FTIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				6A360A9308666B2EBDAF8F9FA24C5194 /* FTIndicator.h */,
+				2054121DC998AC8BC3B723162B47D0B7 /* FTIndicator.m */,
+				B520A175BFCF52D8BE0C8D9354338F14 /* FTNotificationIndicator.h */,
+				22733CCB9B1AC786CA8FCB7718B66B3A /* FTNotificationIndicator.m */,
+				13BC5F45D36413C87C77C0E4C16B90CC /* FTProgressIndicator.h */,
+				737A905D3EB876E28D4D3A53AFCDB032 /* FTProgressIndicator.m */,
+				61EB077C6811491D01CD9FFE571C5199 /* FTToastIndicator.h */,
+				562894E77D6C738C6C35759C2D9096A0 /* FTToastIndicator.m */,
+				4C0E92EABF78F115712450538AF31B09 /* FTNotificationIndicator */,
+				6383290AFF1B8E4826683A3553822CED /* FTProgressIndicator */,
+				DABB941F20D916FC858D6D5C08406F5B /* FTToastIndicator */,
+				39F041C164A1A6EB869125208B05E00C /* Resources */,
+				C479CC071498506C470C0DEA49CB1103 /* Support Files */,
+			);
+			name = FTIndicator;
+			path = FTIndicator;
+			sourceTree = "<group>";
+		};
+		B6ECF131A7C5DD36FEE82DDC4470D5DD /* Pods-bonjour-project-bonjour-projectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FFBAE79045C96483FE38227A34646AAA /* Pods-bonjour-project-bonjour-projectUITests.modulemap */,
+				27A8F58CB41F136AA3E71EB1E6589538 /* Pods-bonjour-project-bonjour-projectUITests-acknowledgements.markdown */,
+				34E9648E860CA57148103DD26C547428 /* Pods-bonjour-project-bonjour-projectUITests-acknowledgements.plist */,
+				941D2A10BDD3FEE938037CC88E27F807 /* Pods-bonjour-project-bonjour-projectUITests-dummy.m */,
+				C04DFCEBEA4A5ED9D29C326C392A79D4 /* Pods-bonjour-project-bonjour-projectUITests-frameworks.sh */,
+				4226BEB1AFCDE92C89D5FD9EE1CF2925 /* Pods-bonjour-project-bonjour-projectUITests-Info.plist */,
+				27A34293FD8232C5D713F4475C5D1EE7 /* Pods-bonjour-project-bonjour-projectUITests-umbrella.h */,
+				5D0DBA11F551DCF2EA1F4764838A7722 /* Pods-bonjour-project-bonjour-projectUITests.debug.xcconfig */,
+				12E615955BA2A9353BB38B1D49ED76D5 /* Pods-bonjour-project-bonjour-projectUITests.release.xcconfig */,
+			);
+			name = "Pods-bonjour-project-bonjour-projectUITests";
+			path = "Target Support Files/Pods-bonjour-project-bonjour-projectUITests";
+			sourceTree = "<group>";
+		};
+		C479CC071498506C470C0DEA49CB1103 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA5050B83C1D723593E755E9F3B0817B /* FTIndicator.modulemap */,
+				AFF9428E10E2EE157D9A85F3B512DEC7 /* FTIndicator-dummy.m */,
+				564BB42678CFCF9DAC8DD1EF50E43AF6 /* FTIndicator-Info.plist */,
+				786D1A58DFBE4E2B6FBFF1F509722C6F /* FTIndicator-prefix.pch */,
+				3AF7744FE84A3207AC205937B37E493A /* FTIndicator-umbrella.h */,
+				83EA78177151B0C583FC8A461A699939 /* FTIndicator.debug.xcconfig */,
+				067E4A8511876024BC2AB61084BEF42D /* FTIndicator.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FTIndicator";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				702E931C2810C8BA7A5AD9FCAE752253 /* Pods */,
+				3E87A44E52B3AB0F400B730240916A9E /* Products */,
+				733AEE8383A4F419BDC45669B2D876F8 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D5B250C191F0E4C7AD947CD0C88A0F4B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A6BE90665B4A1053C5FF26D5289CBC83 /* CFNetwork.framework */,
+				7CB6704A70D55B80A3F7281F31BAE70C /* Foundation.framework */,
+				7ABAB7562D0623DFC2D01E0A09448472 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DABB941F20D916FC858D6D5C08406F5B /* FTToastIndicator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FTToastIndicator;
+			sourceTree = "<group>";
+		};
+		DD2EC7420D96A792212774B6237FDFFD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A311F2C598DDF0FC72FC2CB281C17405 /* CocoaAsyncSocket.modulemap */,
+				32B4AFBBE0D535AAECD80AC2D73792FC /* CocoaAsyncSocket-dummy.m */,
+				99819E14F2E8B82980D8E9C527DE5231 /* CocoaAsyncSocket-Info.plist */,
+				EFE90F0951B303CE2413F6D7551340B8 /* CocoaAsyncSocket-prefix.pch */,
+				F371A13C64CC1D089ABD333AC152B0D7 /* CocoaAsyncSocket-umbrella.h */,
+				77631C0EE1576CEAF543B1FBEB8B2C54 /* CocoaAsyncSocket.debug.xcconfig */,
+				E65E2A2369FEF9B23F1704F635F9EE88 /* CocoaAsyncSocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaAsyncSocket";
+			sourceTree = "<group>";
+		};
+		E773AB980A5FEDFDB182AEF6F7A81E6A /* DTPhotoViewerController */ = {
+			isa = PBXGroup;
+			children = (
+				FBED363655B65FF27F0630679F589E01 /* DTCollectionViewFlowLayout.swift */,
+				1EE1D12FF222D575EA42591D4E6B1888 /* DTImageView.swift */,
+				97B72CEE53B459F887AD64662904FB32 /* DTPhotoAnimator.swift */,
+				A8F106DD8A626C4BA25F56E0F1347182 /* DTPhotoCollectionViewCell.swift */,
+				25C9F3C4A29A1D4A34DE5299C1F6D3E7 /* DTPhotoViewerController.swift */,
+				723A6D943ACA348CE2AF5A9BF9DD7644 /* DTPhotoViewerController+UISrcrollViewDelegate.swift */,
+				7151230FC656156DA9AB17DDF9D83139 /* DTPhotoViewerControllerDataSource.swift */,
+				E84564F74D2D9FEC85181A5DC02A74E7 /* DTPhotoViewerControllerDelegate.swift */,
+				7B64445BC124BAB82599AB864C141807 /* DTScrollView.swift */,
+				82DC9DE940BECA27416D032EA09EACB2 /* Helper.swift */,
+				341BEF5294CAEC30F2B9B0D224B06933 /* Support Files */,
+			);
+			name = DTPhotoViewerController;
+			path = DTPhotoViewerController;
+			sourceTree = "<group>";
+		};
+		F03271CBD9B7DABF700A77BD89F407AC /* Pods-bonjour-projectTests */ = {
+			isa = PBXGroup;
+			children = (
+				99F3CEC73ED69763D192920B521723B8 /* Pods-bonjour-projectTests.modulemap */,
+				8FBA4B2B3DA2E5AC8B537C628530BD02 /* Pods-bonjour-projectTests-acknowledgements.markdown */,
+				FAEEAB01E517D206AF24D04C054A91B9 /* Pods-bonjour-projectTests-acknowledgements.plist */,
+				2738FA389DFC2248C7C4CE818FCD0CB3 /* Pods-bonjour-projectTests-dummy.m */,
+				84A1672A648198DDD6E8D2B5710D71F4 /* Pods-bonjour-projectTests-Info.plist */,
+				CB932C6D6993CCCBA610C892B6C5F9E5 /* Pods-bonjour-projectTests-umbrella.h */,
+				55C3C38DFDEE2E7D23E77B11024D4EB4 /* Pods-bonjour-projectTests.debug.xcconfig */,
+				4EC027E62710BA59DD9FAE4D08290301 /* Pods-bonjour-projectTests.release.xcconfig */,
+			);
+			name = "Pods-bonjour-projectTests";
+			path = "Target Support Files/Pods-bonjour-projectTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		037162064D658702CCB68C699579C75B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				955C8C173D091BACE812FC881D9EC096 /* DTPhotoViewerController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C216FC1CAF7B2FF85B577CAB6B9B42E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0016E72454D6910AC407DA034FFA31D /* FTIndicator.h in Headers */,
+				EDCFF664B3C204A300AC398E4B79481B /* FTIndicator-umbrella.h in Headers */,
+				6304393A3D0BC2CE6AFA2057FCE9CCF3 /* FTNotificationIndicator.h in Headers */,
+				BC10B0AC01A227629FC23F330004BA44 /* FTProgressIndicator.h in Headers */,
+				BE4C3DCF476B0FB3686D36572F143D8F /* FTToastIndicator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C1DD31A3A7A0FBBA1A9C88A92CAA28C /* CocoaAsyncSocket-umbrella.h in Headers */,
+				67A4DC4B4DB5321811BC3D3627AE855E /* GCDAsyncSocket.h in Headers */,
+				B19D3C79B36157522E7662E737D558EF /* GCDAsyncUdpSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D336392F082BE0392AE5068B2359BAA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F04AB64D7141B2123462C0E5A5AF6910 /* Pods-bonjour-project-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F893FA48DAEE4DC5678F31842E7ADCA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3B30A8C092B5CF94848D8712850AB9 /* Pods-bonjour-projectTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB1D42EE4B1A78A0D24CC383DC7CF65D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3A5B97D66E3F0222EBB70A2A79FBBC /* Pods-bonjour-project-bonjour-projectUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */;
+			buildPhases = (
+				17317FE99BCBCAE1DCC6BF783E1EFAF0 /* Headers */,
+				D16C692EA2A4A203DC5FD33344704672 /* Sources */,
+				D37DD023A3721BF2E9A52660FA8A3C6D /* Frameworks */,
+				3D473FD104BFCD98C99B267430355524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaAsyncSocket;
+			productName = CocoaAsyncSocket;
+			productReference = 6CBEFE4F9E22AFDC6347A739BB35FF8C /* CocoaAsyncSocket */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2FA3335DD57A921C519D262E9C483CB /* Pods-bonjour-project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 241B56B66C09800BAE591113660EA8B3 /* Build configuration list for PBXNativeTarget "Pods-bonjour-project" */;
+			buildPhases = (
+				5D336392F082BE0392AE5068B2359BAA /* Headers */,
+				1241B7E0254C717976FFD0825D649D79 /* Sources */,
+				AB80262505352D9294C1B68D42018110 /* Frameworks */,
+				504F3510B859194E23EDF4B2C16E440C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				952B8329998FAA36595D47DB0A29F2D8 /* PBXTargetDependency */,
+				4FBCDB4BF4FF0DE0494858A1C25A7E57 /* PBXTargetDependency */,
+				7FBAE156AA4711CE2A33AAC38C675B83 /* PBXTargetDependency */,
+			);
+			name = "Pods-bonjour-project";
+			productName = Pods_bonjour_project;
+			productReference = C13F2269400F19E9BB912B4F40073FE8 /* Pods-bonjour-project */;
+			productType = "com.apple.product-type.framework";
+		};
+		B957A4FD9E608C9E3554AB85D106B08D /* FTIndicator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB038B8E4320B2FF17F394C4051DB632 /* Build configuration list for PBXNativeTarget "FTIndicator" */;
+			buildPhases = (
+				0C216FC1CAF7B2FF85B577CAB6B9B42E /* Headers */,
+				5710582A08E317EC983672A98EADDC88 /* Sources */,
+				4073D9FB9869A07B74FD88BD2AE6B3CF /* Frameworks */,
+				FFDA002D52C75EE503B59362933B8B81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FTIndicator;
+			productName = FTIndicator;
+			productReference = CC9121AC5A6A67555773F3AF643E8787 /* FTIndicator */;
+			productType = "com.apple.product-type.framework";
+		};
+		B9A37F6EF0EB85C1AA69EDA58479DEAC /* Pods-bonjour-projectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 177674FB6F2CBC8F8DF6AA0459A42F8E /* Build configuration list for PBXNativeTarget "Pods-bonjour-projectTests" */;
+			buildPhases = (
+				6F893FA48DAEE4DC5678F31842E7ADCA /* Headers */,
+				60E894D257DD535A1E005CBCBDFB7838 /* Sources */,
+				BDB21536CC9CABDC91BFC26EBA51DA31 /* Frameworks */,
+				BAED6B0D40067DFA6D2174576A924B41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49C7202071358D3959F463E5BD80692A /* PBXTargetDependency */,
+			);
+			name = "Pods-bonjour-projectTests";
+			productName = Pods_bonjour_projectTests;
+			productReference = E55DB04FB83FF4032F47B9C3D1CD4BC3 /* Pods-bonjour-projectTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		D8EE115F1E527CDF66E6DE8891382FA5 /* DTPhotoViewerController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327181C4DA4F61A0EE9345F765610F3E /* Build configuration list for PBXNativeTarget "DTPhotoViewerController" */;
+			buildPhases = (
+				037162064D658702CCB68C699579C75B /* Headers */,
+				AE6E49A29C8CDA746042B75B039D7A1D /* Sources */,
+				651F7A9812A8C1B8A13DA6FBA15529F1 /* Frameworks */,
+				4B86077AD1A50F465AECCF85855C3844 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTPhotoViewerController;
+			productName = DTPhotoViewerController;
+			productReference = 49A36C70ED2B2BE182C7DB5DB732A269 /* DTPhotoViewerController */;
+			productType = "com.apple.product-type.framework";
+		};
+		E47478E4B56349D1FC451F74EC68E6A3 /* Pods-bonjour-project-bonjour-projectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4593A03B7F0A94223C96F9EB8E64538E /* Build configuration list for PBXNativeTarget "Pods-bonjour-project-bonjour-projectUITests" */;
+			buildPhases = (
+				FB1D42EE4B1A78A0D24CC383DC7CF65D /* Headers */,
+				048926F09CE586F9FB008AB99229530D /* Sources */,
+				D7632430058D80C57BBB51281A12CF51 /* Frameworks */,
+				9F429D9CE681EEC9792003D8973489FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63AC68E9AF43B22419573A515C5CF27B /* PBXTargetDependency */,
+				480694F81EC8264490FF7C45D5217124 /* PBXTargetDependency */,
+				6DDF8DB761879DC7D2A6467FAB20E593 /* PBXTargetDependency */,
+			);
+			name = "Pods-bonjour-project-bonjour-projectUITests";
+			productName = Pods_bonjour_project_bonjour_projectUITests;
+			productReference = A42C243ED3084AFD33C38CBAA1D8B4B7 /* Pods-bonjour-project-bonjour-projectUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3E87A44E52B3AB0F400B730240916A9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */,
+				D8EE115F1E527CDF66E6DE8891382FA5 /* DTPhotoViewerController */,
+				B957A4FD9E608C9E3554AB85D106B08D /* FTIndicator */,
+				A2FA3335DD57A921C519D262E9C483CB /* Pods-bonjour-project */,
+				E47478E4B56349D1FC451F74EC68E6A3 /* Pods-bonjour-project-bonjour-projectUITests */,
+				B9A37F6EF0EB85C1AA69EDA58479DEAC /* Pods-bonjour-projectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D473FD104BFCD98C99B267430355524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B86077AD1A50F465AECCF85855C3844 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		504F3510B859194E23EDF4B2C16E440C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F429D9CE681EEC9792003D8973489FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAED6B0D40067DFA6D2174576A924B41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FFDA002D52C75EE503B59362933B8B81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F877E39644C3D9D6F3FB9BE8A8631A2F /* FTProgressIndicator.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		048926F09CE586F9FB008AB99229530D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE5E2ADA778AB5682D59970658C54ACF /* Pods-bonjour-project-bonjour-projectUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1241B7E0254C717976FFD0825D649D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01CDA1AEA072707BBF26E47CCDB7D24E /* Pods-bonjour-project-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5710582A08E317EC983672A98EADDC88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFA86AF23DD3BB04C3EEEE3E8D327B7 /* FTIndicator.m in Sources */,
+				606D29197B9CF63764C1068C35A0BD4E /* FTIndicator-dummy.m in Sources */,
+				7C2671BC2215843967EBC33756955565 /* FTNotificationIndicator.m in Sources */,
+				F11BFF25411AF46C67C432F4105B96EB /* FTProgressIndicator.m in Sources */,
+				DA4E6B83DCF653F0D894289CCD262E60 /* FTToastIndicator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60E894D257DD535A1E005CBCBDFB7838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7913EB151448EEB33902A83F63E65ECB /* Pods-bonjour-projectTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE6E49A29C8CDA746042B75B039D7A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				968989FE978E06D0E1E9D87AAD3C8109 /* DTCollectionViewFlowLayout.swift in Sources */,
+				2CABC8C9CA517DC23715D661EC3A002E /* DTImageView.swift in Sources */,
+				258EB26AB06EC6EFC2FF434BB50B5C35 /* DTPhotoAnimator.swift in Sources */,
+				8C53F791E4A57E644D399BC1E3156401 /* DTPhotoCollectionViewCell.swift in Sources */,
+				CF719A26285802028232AEC5C1CECF45 /* DTPhotoViewerController.swift in Sources */,
+				9BED2B6D6A77A004C45B43D003ACE674 /* DTPhotoViewerController+UISrcrollViewDelegate.swift in Sources */,
+				D3DC1438FBD5A56BB73609BBFB1D4071 /* DTPhotoViewerController-dummy.m in Sources */,
+				21246F0732D6C1B4E2A4BC4B5DD2BB17 /* DTPhotoViewerControllerDataSource.swift in Sources */,
+				D840BDB3785D41C13402758CCE196C8E /* DTPhotoViewerControllerDelegate.swift in Sources */,
+				549BEADB11814EF710DC089E91258605 /* DTScrollView.swift in Sources */,
+				77214966891DCD2E5EE3E144375F2F72 /* Helper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D16C692EA2A4A203DC5FD33344704672 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBAA830E4F43D7A6DBBDE378713ADDD0 /* CocoaAsyncSocket-dummy.m in Sources */,
+				622620221CD80AE9ADD3C2C80F176972 /* GCDAsyncSocket.m in Sources */,
+				54C03678E366FDF739EB7A24281B0F4B /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		480694F81EC8264490FF7C45D5217124 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTPhotoViewerController;
+			target = D8EE115F1E527CDF66E6DE8891382FA5 /* DTPhotoViewerController */;
+			targetProxy = D7B47DA5BD591DBF272B0890C363B811 /* PBXContainerItemProxy */;
+		};
+		49C7202071358D3959F463E5BD80692A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-bonjour-project";
+			target = A2FA3335DD57A921C519D262E9C483CB /* Pods-bonjour-project */;
+			targetProxy = 9AF084AE9BE9B57AEC365E3D69C45A1D /* PBXContainerItemProxy */;
+		};
+		4FBCDB4BF4FF0DE0494858A1C25A7E57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTPhotoViewerController;
+			target = D8EE115F1E527CDF66E6DE8891382FA5 /* DTPhotoViewerController */;
+			targetProxy = CE4B4D04A58F64D539B0C98D9A57A77C /* PBXContainerItemProxy */;
+		};
+		63AC68E9AF43B22419573A515C5CF27B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 6D69386E17DD5AE365E99C8778E8B3A6 /* PBXContainerItemProxy */;
+		};
+		6DDF8DB761879DC7D2A6467FAB20E593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FTIndicator;
+			target = B957A4FD9E608C9E3554AB85D106B08D /* FTIndicator */;
+			targetProxy = 6EEEDFC9A61B93464CDCFA69CDD98375 /* PBXContainerItemProxy */;
+		};
+		7FBAE156AA4711CE2A33AAC38C675B83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FTIndicator;
+			target = B957A4FD9E608C9E3554AB85D106B08D /* FTIndicator */;
+			targetProxy = C591550A80F6DDE345F4D2B81834321E /* PBXContainerItemProxy */;
+		};
+		952B8329998FAA36595D47DB0A29F2D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 3E47F81ADED81936EE95F85231FCD92C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A445666CDA01E0A6C6A1B73AEE81709 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EC027E62710BA59DD9FAE4D08290301 /* Pods-bonjour-projectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bonjour-projectTests/Pods-bonjour-projectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bonjour-projectTests/Pods-bonjour-projectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F8D63607F84E79FD19D242920CAAB31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83EA78177151B0C583FC8A461A699939 /* FTIndicator.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FTIndicator/FTIndicator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FTIndicator/FTIndicator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FTIndicator/FTIndicator.modulemap";
+				PRODUCT_MODULE_NAME = FTIndicator;
+				PRODUCT_NAME = FTIndicator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E37E55EF8565DEC913A1079F2B40A0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 067E4A8511876024BC2AB61084BEF42D /* FTIndicator.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FTIndicator/FTIndicator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FTIndicator/FTIndicator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FTIndicator/FTIndicator.modulemap";
+				PRODUCT_MODULE_NAME = FTIndicator;
+				PRODUCT_NAME = FTIndicator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		741930BEE2AA2F9F135E2D5667A3681E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F706476C3217A6DA681EF8AAAD8CF09 /* Pods-bonjour-project.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bonjour-project/Pods-bonjour-project-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bonjour-project/Pods-bonjour-project.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		88E73531C68FEC995B656F125B9BD903 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77631C0EE1576CEAF543B1FBEB8B2C54 /* CocoaAsyncSocket.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		88FA0DDE308695B19E029FF5F8295248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 741DF28CC31E408799B9EED657071C35 /* DTPhotoViewerController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTPhotoViewerController/DTPhotoViewerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTPhotoViewerController/DTPhotoViewerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DTPhotoViewerController/DTPhotoViewerController.modulemap";
+				PRODUCT_MODULE_NAME = DTPhotoViewerController;
+				PRODUCT_NAME = DTPhotoViewerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9DD09D0D00249C022E2A3426A4917732 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E65E2A2369FEF9B23F1704F635F9EE88 /* CocoaAsyncSocket.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CocoaAsyncSocket/CocoaAsyncSocket.modulemap";
+				PRODUCT_MODULE_NAME = CocoaAsyncSocket;
+				PRODUCT_NAME = CocoaAsyncSocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AF26A78E68E68EC5139F06D7626BEF7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C3C38DFDEE2E7D23E77B11024D4EB4 /* Pods-bonjour-projectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bonjour-projectTests/Pods-bonjour-projectTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bonjour-projectTests/Pods-bonjour-projectTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BC9A3ABE54DDC03645A45850AA61ABB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDE2AD980AB5CDC862DDE40AF96274B9 /* DTPhotoViewerController.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DTPhotoViewerController/DTPhotoViewerController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTPhotoViewerController/DTPhotoViewerController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DTPhotoViewerController/DTPhotoViewerController.modulemap";
+				PRODUCT_MODULE_NAME = DTPhotoViewerController;
+				PRODUCT_NAME = DTPhotoViewerController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4740BB0F7A11F5E16E1EB99DBF4075C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0DBA11F551DCF2EA1F4764838A7722 /* Pods-bonjour-project-bonjour-projectUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bonjour-project-bonjour-projectUITests/Pods-bonjour-project-bonjour-projectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bonjour-project-bonjour-projectUITests/Pods-bonjour-project-bonjour-projectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E72E47B0710FC4E0999A89117D60BDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 930254329DE040D0E798D57522B3ED8C /* Pods-bonjour-project.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bonjour-project/Pods-bonjour-project-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bonjour-project/Pods-bonjour-project.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5D0C7849FD2B1F4CF6A7CCFB4010871 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12E615955BA2A9353BB38B1D49ED76D5 /* Pods-bonjour-project-bonjour-projectUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-bonjour-project-bonjour-projectUITests/Pods-bonjour-project-bonjour-projectUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-bonjour-project-bonjour-projectUITests/Pods-bonjour-project-bonjour-projectUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		177674FB6F2CBC8F8DF6AA0459A42F8E /* Build configuration list for PBXNativeTarget "Pods-bonjour-projectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF26A78E68E68EC5139F06D7626BEF7B /* Debug */,
+				3A445666CDA01E0A6C6A1B73AEE81709 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		241B56B66C09800BAE591113660EA8B3 /* Build configuration list for PBXNativeTarget "Pods-bonjour-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E72E47B0710FC4E0999A89117D60BDD8 /* Debug */,
+				741930BEE2AA2F9F135E2D5667A3681E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327181C4DA4F61A0EE9345F765610F3E /* Build configuration list for PBXNativeTarget "DTPhotoViewerController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC9A3ABE54DDC03645A45850AA61ABB0 /* Debug */,
+				88FA0DDE308695B19E029FF5F8295248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4593A03B7F0A94223C96F9EB8E64538E /* Build configuration list for PBXNativeTarget "Pods-bonjour-project-bonjour-projectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4740BB0F7A11F5E16E1EB99DBF4075C /* Debug */,
+				F5D0C7849FD2B1F4CF6A7CCFB4010871 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A95C19FCB7B5FAAC46BE001C359756 /* Build configuration list for PBXNativeTarget "CocoaAsyncSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88E73531C68FEC995B656F125B9BD903 /* Debug */,
+				9DD09D0D00249C022E2A3426A4917732 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB038B8E4320B2FF17F394C4051DB632 /* Build configuration list for PBXNativeTarget "FTIndicator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F8D63607F84E79FD19D242920CAAB31 /* Debug */,
+				6E37E55EF8565DEC913A1079F2B40A0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

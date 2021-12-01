@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-bonjour-project/Pods-bonjour-project-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework
+${BUILT_PRODUCTS_DIR}/DTPhotoViewerController/DTPhotoViewerController.framework
+${BUILT_PRODUCTS_DIR}/FTIndicator/FTIndicator.framework

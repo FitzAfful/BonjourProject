@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		169D21263F3E521B04561E72 /* Pods_bonjour_project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588E2282F0FDF64947553BAF /* Pods_bonjour_project.framework */; };
+		7D0A97FB274823840075088D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A97FA274823840075088D /* AppDelegate.swift */; };
+		7D0A97FD274823840075088D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A97FC274823840075088D /* SceneDelegate.swift */; };
+		7D0A97FF274823840075088D /* ServiceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D0A97FE274823840075088D /* ServiceListViewController.swift */; };
+		7D0A9802274823840075088D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0A9800274823840075088D /* Main.storyboard */; };
+		7D0A9804274823860075088D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D0A9803274823860075088D /* Assets.xcassets */; };
+		7D0A9807274823860075088D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D0A9805274823860075088D /* LaunchScreen.storyboard */; };
+		7D17ECD827482C2000B85372 /* BonjourConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17ECD127482C2000B85372 /* BonjourConnection.swift */; };
+		7D17ECD927482C2000B85372 /* BonjourParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17ECD227482C2000B85372 /* BonjourParser.swift */; };
+		7D17ECDA27482C2000B85372 /* BonjourResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17ECD327482C2000B85372 /* BonjourResponse.swift */; };
+		7D17ECDB27482C2000B85372 /* BonjourRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17ECD427482C2000B85372 /* BonjourRequest.swift */; };
+		7D17ECDC27482C2000B85372 /* BonjourService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17ECD527482C2000B85372 /* BonjourService.swift */; };
+		7D17ECDD27482C2000B85372 /* BonjourBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17ECD627482C2000B85372 /* BonjourBrowser.swift */; };
+		7D17ECE227482C8C00B85372 /* CreateServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17ECE127482C8C00B85372 /* CreateServiceViewController.swift */; };
+		7D17ECE427482CE800B85372 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17ECE327482CE800B85372 /* Observable.swift */; };
+		7D17ECE827482E0400B85372 /* BonjourClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17ECE627482E0400B85372 /* BonjourClient.swift */; };
+		7D17ECE927482E0400B85372 /* BonjourServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D17ECE727482E0400B85372 /* BonjourServer.swift */; };
+		7DE4737727490585009C38E9 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE4737627490585009C38E9 /* ChatViewController.swift */; };
+		7DE47379274A299C009C38E9 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE47378274A299B009C38E9 /* Message.swift */; };
+		7DE4737F274AFAAE009C38E9 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE4737D274AFAAE009C38E9 /* MessageCell.swift */; };
+		7DE47380274AFAAE009C38E9 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DE4737E274AFAAE009C38E9 /* MessageCell.xib */; };
+		84B60182274C540E008ADBD4 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B60181274C540E008ADBD4 /* ChatViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B7FDDEF95D31F38B01EE946 /* Pods-bonjour-project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonjour-project.debug.xcconfig"; path = "Target Support Files/Pods-bonjour-project/Pods-bonjour-project.debug.xcconfig"; sourceTree = "<group>"; };
+		3602500633F6B72CB5169443 /* Pods-bonjour-projectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonjour-projectTests.debug.xcconfig"; path = "Target Support Files/Pods-bonjour-projectTests/Pods-bonjour-projectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		443C209EE95B288F813CC49D /* Pods_bonjour_project_bonjour_projectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bonjour_project_bonjour_projectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		588E2282F0FDF64947553BAF /* Pods_bonjour_project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bonjour_project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		613F0EFB45A3514227569EE5 /* Pods-bonjour-projectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonjour-projectTests.release.xcconfig"; path = "Target Support Files/Pods-bonjour-projectTests/Pods-bonjour-projectTests.release.xcconfig"; sourceTree = "<group>"; };
+		73631A5BB4A35DB2A4498B18 /* Pods-bonjour-project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonjour-project.release.xcconfig"; path = "Target Support Files/Pods-bonjour-project/Pods-bonjour-project.release.xcconfig"; sourceTree = "<group>"; };
+		7D0A97F7274823840075088D /* bonjour-project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bonjour-project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D0A97FA274823840075088D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D0A97FC274823840075088D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7D0A97FE274823840075088D /* ServiceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceListViewController.swift; sourceTree = "<group>"; };
+		7D0A9801274823840075088D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D0A9803274823860075088D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D0A9806274823860075088D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D0A9808274823860075088D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D17ECD127482C2000B85372 /* BonjourConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourConnection.swift; sourceTree = "<group>"; };
+		7D17ECD227482C2000B85372 /* BonjourParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourParser.swift; sourceTree = "<group>"; };
+		7D17ECD327482C2000B85372 /* BonjourResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourResponse.swift; sourceTree = "<group>"; };
+		7D17ECD427482C2000B85372 /* BonjourRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourRequest.swift; sourceTree = "<group>"; };
+		7D17ECD527482C2000B85372 /* BonjourService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourService.swift; sourceTree = "<group>"; };
+		7D17ECD627482C2000B85372 /* BonjourBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourBrowser.swift; sourceTree = "<group>"; };
+		7D17ECE127482C8C00B85372 /* CreateServiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateServiceViewController.swift; sourceTree = "<group>"; };
+		7D17ECE327482CE800B85372 /* Observable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		7D17ECE627482E0400B85372 /* BonjourClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourClient.swift; sourceTree = "<group>"; };
+		7D17ECE727482E0400B85372 /* BonjourServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourServer.swift; sourceTree = "<group>"; };
+		7DE4737627490585009C38E9 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		7DE47378274A299B009C38E9 /* Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		7DE4737D274AFAAE009C38E9 /* MessageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		7DE4737E274AFAAE009C38E9 /* MessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		84B60181274C540E008ADBD4 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		AD8C3B13EEB97CB217F673F7 /* Pods_bonjour_projectTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bonjour_projectTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7BC0C2858062DD429A2DF43 /* Pods-bonjour-project-bonjour-projectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonjour-project-bonjour-projectUITests.release.xcconfig"; path = "Target Support Files/Pods-bonjour-project-bonjour-projectUITests/Pods-bonjour-project-bonjour-projectUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D5FADF9DEBC4186140C66380 /* Pods-bonjour-project-bonjour-projectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bonjour-project-bonjour-projectUITests.debug.xcconfig"; path = "Target Support Files/Pods-bonjour-project-bonjour-projectUITests/Pods-bonjour-project-bonjour-projectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D0A97F4274823840075088D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				169D21263F3E521B04561E72 /* Pods_bonjour_project.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D0A97EE274823840075088D = {
+			isa = PBXGroup;
+			children = (
+				7D0A97F9274823840075088D /* bonjour-project */,
+				7D0A97F8274823840075088D /* Products */,
+				C484089F266C17E2B7B37956 /* Pods */,
+				A8AB181D934B9AFC2A48CD1F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D0A97F8274823840075088D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D0A97F7274823840075088D /* bonjour-project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D0A97F9274823840075088D /* bonjour-project */ = {
+			isa = PBXGroup;
+			children = (
+				7D17ECF427486B0900B85372 /* models */,
+				7D17ECE027482C6400B85372 /* controllers */,
+				7D17ECCF27482BE500B85372 /* helpers */,
+				7D0A97FA274823840075088D /* AppDelegate.swift */,
+				7D0A97FC274823840075088D /* SceneDelegate.swift */,
+				7D0A9800274823840075088D /* Main.storyboard */,
+				7D0A9803274823860075088D /* Assets.xcassets */,
+				7D0A9805274823860075088D /* LaunchScreen.storyboard */,
+				7D0A9808274823860075088D /* Info.plist */,
+			);
+			path = "bonjour-project";
+			sourceTree = "<group>";
+		};
+		7D17ECCF27482BE500B85372 /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7D17ECE327482CE800B85372 /* Observable.swift */,
+				7D17ECE627482E0400B85372 /* BonjourClient.swift */,
+				7D17ECE727482E0400B85372 /* BonjourServer.swift */,
+				7D17ECE527482DD500B85372 /* bonjour */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
+		7D17ECE027482C6400B85372 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				84B60180274C5400008ADBD4 /* Chat */,
+				7D17ECE127482C8C00B85372 /* CreateServiceViewController.swift */,
+				7D0A97FE274823840075088D /* ServiceListViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		7D17ECE527482DD500B85372 /* bonjour */ = {
+			isa = PBXGroup;
+			children = (
+				7D17ECD627482C2000B85372 /* BonjourBrowser.swift */,
+				7D17ECD127482C2000B85372 /* BonjourConnection.swift */,
+				7D17ECD227482C2000B85372 /* BonjourParser.swift */,
+				7D17ECD427482C2000B85372 /* BonjourRequest.swift */,
+				7D17ECD327482C2000B85372 /* BonjourResponse.swift */,
+				7D17ECD527482C2000B85372 /* BonjourService.swift */,
+			);
+			path = bonjour;
+			sourceTree = "<group>";
+		};
+		7D17ECF427486B0900B85372 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				7DE47378274A299B009C38E9 /* Message.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		84B60180274C5400008ADBD4 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				84B60183274C559B008ADBD4 /* Cells */,
+				7DE4737627490585009C38E9 /* ChatViewController.swift */,
+				84B60181274C540E008ADBD4 /* ChatViewModel.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		84B60183274C559B008ADBD4 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7DE4737D274AFAAE009C38E9 /* MessageCell.swift */,
+				7DE4737E274AFAAE009C38E9 /* MessageCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		A8AB181D934B9AFC2A48CD1F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				588E2282F0FDF64947553BAF /* Pods_bonjour_project.framework */,
+				443C209EE95B288F813CC49D /* Pods_bonjour_project_bonjour_projectUITests.framework */,
+				AD8C3B13EEB97CB217F673F7 /* Pods_bonjour_projectTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C484089F266C17E2B7B37956 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B7FDDEF95D31F38B01EE946 /* Pods-bonjour-project.debug.xcconfig */,
+				73631A5BB4A35DB2A4498B18 /* Pods-bonjour-project.release.xcconfig */,
+				D5FADF9DEBC4186140C66380 /* Pods-bonjour-project-bonjour-projectUITests.debug.xcconfig */,
+				C7BC0C2858062DD429A2DF43 /* Pods-bonjour-project-bonjour-projectUITests.release.xcconfig */,
+				3602500633F6B72CB5169443 /* Pods-bonjour-projectTests.debug.xcconfig */,
+				613F0EFB45A3514227569EE5 /* Pods-bonjour-projectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D0A97F6274823840075088D /* bonjour-project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D0A9821274823860075088D /* Build configuration list for PBXNativeTarget "bonjour-project" */;
+			buildPhases = (
+				63C829EF64D406F9C1C582A2 /* [CP] Check Pods Manifest.lock */,
+				7D0A97F3274823840075088D /* Sources */,
+				7D0A97F4274823840075088D /* Frameworks */,
+				7D0A97F5274823840075088D /* Resources */,
+				0E2C0D2EA03971FE4FCDABD9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bonjour-project";
+			productName = "bonjour-project";
+			productReference = 7D0A97F7274823840075088D /* bonjour-project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D0A97EF274823840075088D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					7D0A97F6274823840075088D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 7D0A97F2274823840075088D /* Build configuration list for PBXProject "bonjour-project" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D0A97EE274823840075088D;
+			productRefGroup = 7D0A97F8274823840075088D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D0A97F6274823840075088D /* bonjour-project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D0A97F5274823840075088D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0A9807274823860075088D /* LaunchScreen.storyboard in Resources */,
+				7DE47380274AFAAE009C38E9 /* MessageCell.xib in Resources */,
+				7D0A9804274823860075088D /* Assets.xcassets in Resources */,
+				7D0A9802274823840075088D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E2C0D2EA03971FE4FCDABD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bonjour-project/Pods-bonjour-project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bonjour-project/Pods-bonjour-project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bonjour-project/Pods-bonjour-project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63C829EF64D406F9C1C582A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bonjour-project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D0A97F3274823840075088D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D17ECE427482CE800B85372 /* Observable.swift in Sources */,
+				7D17ECD927482C2000B85372 /* BonjourParser.swift in Sources */,
+				7DE4737727490585009C38E9 /* ChatViewController.swift in Sources */,
+				7DE47379274A299C009C38E9 /* Message.swift in Sources */,
+				7D17ECDC27482C2000B85372 /* BonjourService.swift in Sources */,
+				7D17ECDD27482C2000B85372 /* BonjourBrowser.swift in Sources */,
+				7D17ECE227482C8C00B85372 /* CreateServiceViewController.swift in Sources */,
+				7D17ECDA27482C2000B85372 /* BonjourResponse.swift in Sources */,
+				7D0A97FF274823840075088D /* ServiceListViewController.swift in Sources */,
+				7D17ECE927482E0400B85372 /* BonjourServer.swift in Sources */,
+				7D17ECD827482C2000B85372 /* BonjourConnection.swift in Sources */,
+				7D17ECE827482E0400B85372 /* BonjourClient.swift in Sources */,
+				7DE4737F274AFAAE009C38E9 /* MessageCell.swift in Sources */,
+				7D0A97FB274823840075088D /* AppDelegate.swift in Sources */,
+				7D0A97FD274823840075088D /* SceneDelegate.swift in Sources */,
+				84B60182274C540E008ADBD4 /* ChatViewModel.swift in Sources */,
+				7D17ECDB27482C2000B85372 /* BonjourRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D0A9800274823840075088D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D0A9801274823840075088D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D0A9805274823860075088D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D0A9806274823860075088D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D0A981F274823860075088D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D0A9820274823860075088D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D0A9822274823860075088D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B7FDDEF95D31F38B01EE946 /* Pods-bonjour-project.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MGBT9XHCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "bonjour-project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josephacquah.bonjour-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D0A9823274823860075088D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73631A5BB4A35DB2A4498B18 /* Pods-bonjour-project.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MGBT9XHCG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "bonjour-project/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.josephacquah.bonjour-project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D0A97F2274823840075088D /* Build configuration list for PBXProject "bonjour-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0A981F274823860075088D /* Debug */,
+				7D0A9820274823860075088D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D0A9821274823860075088D /* Build configuration list for PBXNativeTarget "bonjour-project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D0A9822274823860075088D /* Debug */,
+				7D0A9823274823860075088D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D0A97EF274823840075088D /* Project object */;
+}

@@ -1,0 +1,30 @@
+PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - DTPhotoViewerController (3.1.0)
+  - FTIndicator (1.2.9):
+    - FTIndicator/FTNotificationIndicator (= 1.2.9)
+    - FTIndicator/FTProgressIndicator (= 1.2.9)
+    - FTIndicator/FTToastIndicator (= 1.2.9)
+  - FTIndicator/FTNotificationIndicator (1.2.9)
+  - FTIndicator/FTProgressIndicator (1.2.9)
+  - FTIndicator/FTToastIndicator (1.2.9)
+
+DEPENDENCIES:
+  - CocoaAsyncSocket
+  - DTPhotoViewerController
+  - FTIndicator
+
+SPEC REPOS:
+  trunk:
+    - CocoaAsyncSocket
+    - DTPhotoViewerController
+    - FTIndicator
+
+SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  DTPhotoViewerController: 2b5e64792ee89fcab1f154538577d1856e04e15b
+  FTIndicator: f7f071fd159e5befa1d040a9ef2e3ab53fa9322c
+
+PODFILE CHECKSUM: 55a4478630746428f1e5c85097d271f429b8f31e
+
+COCOAPODS: 1.11.2
